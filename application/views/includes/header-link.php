@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/dark-theme.css">
     <title><?= $title ?></title>
     <link rel="icon" type="image/png" href="<?= base_url() ?>assets/img/logo.png">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/sagar.css">
 </head>
 
 <body>
