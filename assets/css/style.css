@@ -896,16 +896,16 @@ select {
 }
 
 .btn.style1 {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   border-radius: 5px;
 }
 
 .btn.style1:after, .btn.style1:before {
-  background: #14467B;
+  background: #0c2150;
 }
 
 .btn.style2 {
-  background-color: #14467B;
+  background-color: #0c2150;
   color: #fff;
   border-radius: 5px;
 }
@@ -927,7 +927,7 @@ select {
 }
 
 .btn.style3:after, .btn.style3:before {
-  background: #14467B;
+  background: #0c2150;
 }
 
 .btn.style3:hover {
@@ -935,7 +935,7 @@ select {
 }
 
 .btn.style5 {
-  background-color: #14467B;
+  background-color: #0c2150;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -956,7 +956,7 @@ select {
 }
 
 .btn.style6:after, .btn.style6:before, .btn.style8:after, .btn.style8:before {
-  background: #14467B;
+  background: #0c2150;
 }
 
 .btn.style6:hover, .btn.style8:hover {
@@ -969,13 +969,13 @@ select {
 }
 
 .btn.style7 {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   color: #fff;
   border: 1px solid transparent;
 }
 
 .btn.style7:after, .btn.style7:before {
-  background: #14467B;
+  background: #0c2150;
 }
 
 .btn.style7:hover {
@@ -999,7 +999,7 @@ select {
   content: "";
   width: 0;
   height: 1px;
-  background: #14467B;
+  background: #0c2150;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1020,7 +1020,7 @@ select {
 }
 
 .link.style1:after {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .link.style1:hover {
@@ -1032,7 +1032,7 @@ select {
 }
 
 .link.style2:after {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .link.style2:hover {
@@ -1040,7 +1040,7 @@ select {
 }
 
 .link:hover {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .link:hover:after {
@@ -1073,7 +1073,7 @@ select {
   content: "";
   width: 100%;
   height: 0;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   z-index: -1;
   visibility: hidden;
   opacity: 0;
@@ -1126,7 +1126,7 @@ select {
 }
 
 .owl-carousel .owl-dots button.owl-dot.active span {
-  background: #14467B;
+  background: #0c2150;
 }
 
 /*--------------------------------------
@@ -1216,7 +1216,7 @@ select {
 }
 
 .bg-chathamas {
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .body_overlay {
@@ -1662,7 +1662,7 @@ select {
 
 .social-profile li a:hover {
   border-color: transparent;
-  color: #14467B;
+  color: #0c2150;
 }
 
 .social-profile.style1 li a, .social-profile.style2 li a {
@@ -1685,7 +1685,7 @@ select {
 }
 
 .social-profile.style1 li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -1704,7 +1704,7 @@ select {
 }
 
 .social-profile.style2 li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -1755,7 +1755,7 @@ select {
 .page-nav li a.active, .page-nav li a:hover {
   color: #fff;
   opacity: 1;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .page-nav li a.active i, .page-nav li a:hover i {
@@ -1978,7 +1978,7 @@ select {
 }
 
 .header-wrap.style1 .header-top {
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li span {
@@ -1986,11 +1986,11 @@ select {
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li span i {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li:hover span {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li:hover span i {
@@ -2014,11 +2014,11 @@ select {
 }
 
 .header-wrap.style1 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .header-wrap.style1 .header-top .header-top-right .social-profile li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .header-wrap.style1 .header-top .header-top-right .social-profile li a:hover i {
@@ -2052,11 +2052,11 @@ select {
 }
 
 .header-wrap.style2 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .header-wrap.style2 .header-top .header-top-right .social-profile li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .header-wrap.style2 .header-top .header-top-right .social-profile li a:hover i {
@@ -2101,11 +2101,11 @@ select {
 }
 
 .header-wrap.style3 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .header-wrap.style3 .header-top .header-top-right .social-profile li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .header-wrap.style3 .header-top .header-top-right .social-profile li a:hover i {
@@ -2166,7 +2166,7 @@ select {
 }
 
 .user-login ul li a:hover {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   color: #fff;
 }
 
@@ -2627,7 +2627,7 @@ select {
     height: 38px;
     border-radius: 62% 38% 46% 54% / 60% 63% 37% 40%;
     text-align: center;
-    background-color: #2490EB;
+    background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2844,7 +2844,7 @@ select {
     content: "";
     width: 2px;
     height: 0%;
-    background-color: #2490EB;
+    background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
     visibility: hidden;
     opacity: 0;
     -webkit-transform: translateY(-50%);
@@ -3307,7 +3307,7 @@ select {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .category-box li a span {
@@ -3534,7 +3534,7 @@ select {
 }
 
 .terms-wrap .single-terms p a:hover {
-  color: #14467B;
+  color: #0c2150;
   text-decoration: underline;
 }
 
@@ -3564,7 +3564,7 @@ select {
 }
 
 .tag-list ul li a:hover {
-  background-color: #14467B;
+  background-color: #0c2150;
   color: #fff;
   border-color: transparent;
 }
@@ -3684,7 +3684,7 @@ select {
   left: 0;
   font-size: 13px;
   line-height: 0.8;
-  color: #14467B;
+  color: #0c2150;
 }
 
 .pp-post-item:last-child {
@@ -3692,7 +3692,7 @@ select {
 }
 
 .pp-post-item:hover .pp-post-info h6 a {
-  color: #14467B;
+  color: #0c2150;
 }
 
 /*-------------------------------
@@ -3824,7 +3824,7 @@ select {
   height: 60px;
   border-radius: 50%;
   margin: -55px auto 20px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .hero-wrap.style1 .hero-slide-item .hero-img-wrap .promo-box span i {
@@ -3844,7 +3844,7 @@ select {
 }
 
 .hero-wrap.style2 {
-  background-color: #14467B;
+  background-color: #0c2150;
   padding: 100px 0 180px;
   z-index: 1;
 }
@@ -4281,7 +4281,7 @@ select {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   margin-bottom: 0;
 }
 
@@ -4635,7 +4635,7 @@ select {
   position: absolute;
   bottom: 70px;
   right: 100px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   border: 4px solid rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   padding: 30px;
@@ -4738,7 +4738,7 @@ select {
 }
 
 .about-doctor-box .btn {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   color: #fff;
   padding: 7px 18px;
   margin-left: auto;
@@ -4781,7 +4781,7 @@ select {
   content: "";
   width: 100%;
   height: 0;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   visibility: hidden;
@@ -4835,7 +4835,7 @@ select {
   width: 100%;
   height: calc(50% + 28px);
   z-index: -1;
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .service-wrap.style3 {
@@ -4851,7 +4851,7 @@ select {
   width: 100%;
   height: 20%;
   z-index: -1;
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .service-card {
@@ -4914,12 +4914,12 @@ select {
 .service-card.style1 .service-img .service-icon {
   bottom: -25px;
   right: 25px;
-  background-color: #14467B;
+  background-color: #0c2150;
   border-radius: 5px;
 }
 
 .service-card.style1:hover .service-img .service-icon {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .service-card.style2 {
@@ -4942,7 +4942,7 @@ select {
 }
 
 .service-card.style2:hover .service-img .service-icon {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .service-card.style2:hover .service-img .service-icon i {
@@ -4982,7 +4982,7 @@ select {
 }
 
 .service-card.style3:hover .service-img .service-icon {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .service-card.style3:hover .service-img .service-icon i {
@@ -5021,7 +5021,7 @@ select {
 }
 
 .service-card.style4:hover .service-icon {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .service-card.style4:hover .service-icon i {
@@ -5171,7 +5171,7 @@ select {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   line-height: 77px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   border: none;
 }
 
@@ -5534,7 +5534,7 @@ select {
   content: "";
   width: 100%;
   height: calc(100% - 100px);
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   z-index: -1;
 }
 
@@ -5550,7 +5550,7 @@ select {
   content: "";
   width: 100%;
   height: 80%;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   z-index: -1;
 }
 
@@ -5630,7 +5630,7 @@ select {
   content: "";
   width: 100%;
   height: 50%;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   z-index: -1;
 }
 
@@ -5737,7 +5737,7 @@ select {
 }
 
 .testimonial-slider-one.owl-carousel .owl-nav button.owl-prev:hover:after, .testimonial-slider-one.owl-carousel .owl-nav button.owl-next:hover:after {
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .testimonial-slider-two {
@@ -5767,7 +5767,7 @@ select {
 
 .testimonial-slider-two.owl-carousel .owl-dots .owl-dot.active span {
   width: 35px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .testimonial-slider-two.owl-carousel.style2 {
@@ -5961,7 +5961,7 @@ select {
 .pricing-card .pricing-header .pricing-header-right i {
   font-size: 60px;
   opacity: 0.25;
-  color: #14467B;
+  color: #0c2150;
   line-height: 0.5;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -6030,7 +6030,7 @@ select {
   height: 45px;
   border-radius: 50%;
   text-align: center;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .team-card .team-info .team-mail i {
@@ -6089,7 +6089,7 @@ select {
 
 .team-slider-one.style2.owl-carousel .owl-dots .owl-dot.active span {
   width: 35px;
-  background-color: #2490eb;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .team-slider-one.owl-carousel .owl-dots {
@@ -6223,7 +6223,7 @@ select {
   top: -22px;
   right: 25px;
   font-size: 15px;
-  background-color: #14467B;
+  background-color: #0c2150;
   padding: 8px 15px;
   border-radius: 5px;
   color: #fff;
@@ -6248,7 +6248,7 @@ select {
   position: absolute;
   top: 25px;
   left: 25px;
-  background-color: #14467B;
+  background-color: #0c2150;
   padding: 8px 15px;
   color: #fff;
   text-align: center;
@@ -6293,7 +6293,7 @@ select {
   top: -25px;
   right: 25px;
   font-size: 15px;
-  background-color: #14467B;
+  background-color: #0c2150;
   padding: 8px 15px;
   color: #fff;
   text-align: center;
@@ -6321,7 +6321,7 @@ select {
 }
 
 .blog-card:hover .blog-info .blog-date {
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .testimonial-slider-one,
@@ -6558,7 +6558,7 @@ select {
 }
 
 .contact-item:hover .contact-icon {
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .contact-item:hover .contact-icon i {
@@ -6626,7 +6626,7 @@ select {
 }
 
 .contact-content .social-profile li a i {
-  color: #14467B;
+  color: #0c2150;
   font-size: 20px;
 }
 
@@ -7074,7 +7074,7 @@ article {
 }
 
 .comment-item-wrap .reply-btn:hover {
-  color: #14467B;
+  color: #0c2150;
 }
 
 .comment-box-title h4 {
@@ -7178,7 +7178,7 @@ article {
 -----------------------------------*/
 .footer-wrap {
   position: relative;
-  background-color: #14467B;
+  background-color: #0c2150;
 }
 
 .footer-wrap .footer-widget {
@@ -7211,7 +7211,7 @@ article {
   content: "";
   width: 35px;
   height: 2px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
 }
 
 .footer-wrap .footer-widget .footer-logo {
@@ -7264,7 +7264,7 @@ article {
   content: "";
   width: 0;
   height: 1px;
-  background-color: #2490EB;
+  background-image: linear-gradient(to right top, #0c2150, #342763, #5a2971, #822778, #a92078);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: 0.4s;
