@@ -16,20 +16,10 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com">
-                                        <i class="ri-twitter-fill"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com">
-                                        <i class="ri-instagram-line"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com">
-                                        <i class="ri-linkedin-fill"></i>
-                                    </a>
-                                </li>
+                                <a href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" targte="_blank">
+                                    <i class="ri-youtube-fill"></i>
+                                </a>
+                            </li>
                             </ul>
                         </div>
                     </div>
@@ -38,31 +28,31 @@
                             <h3 class="footer-widget-title">Company</h3>
                             <ul class="footer-menu list-style">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="#">
                                         <i class="ri-arrow-right-s-line"></i>
                                         Home
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="about.html">
+                                    <a href="#">
                                         <i class="ri-arrow-right-s-line"></i>
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="#">
                                         <i class="ri-arrow-right-s-line"></i>
                                         Our Services
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="team.html">
+                                    <a href="#">
                                         <i class="ri-arrow-right-s-line"></i>
-                                        Our Team
+                                      gallery
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">
+                                    <a href="#">
                                         <i class="ri-arrow-right-s-line"></i>
                                         Contact Us
                                     </a>
@@ -72,7 +62,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h3 class="footer-widget-title">Important</h3>
+                            <h3 class="footer-widget-title">Our Courses</h3>
                             <ul class="footer-menu list-style">
                                 <li>
                                     <a href="portfolio.html">
