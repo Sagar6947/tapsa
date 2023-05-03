@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/starter/';
+$config['base_url'] = 'http://localhost/tapsa/';
 
 $config['index_page'] = '';
 
