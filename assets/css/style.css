@@ -3937,7 +3937,7 @@ select {
 }
 
 .hero-wrap.style2 .hero-appointment .hero-appointment-img {
-  background-image: url(../images/hero-img-2.jpg);
+  background-image: url(../img/banner-1.png);
   height: 290px;
   width: 430px;
   z-index: 1;
@@ -4010,7 +4010,7 @@ select {
 }
 
 .hero-wrap.style2 .hero-doctor .hero-doctor-bg {
-  background-image: url(../images/hero-img-3.jpg);
+  background-image: url(../img/banner-2.png);
   height: 290px;
   width: 430px;
   z-index: 1;
