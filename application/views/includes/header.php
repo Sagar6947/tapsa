@@ -7,7 +7,7 @@
                         <ul class="contact-info list-style">
                             <li>
                                 <span><i class="ri-mail-send-line"></i></span>
-                                <p>Your Trusted Service Provider</p>
+                                <p>tapsainstitute@gmail.com</p>
                             </li>
                             <li>
                                 <span><i class="ri-phone-fill"></i></span>
@@ -15,7 +15,7 @@
                             </li>
                             <li>
                                 <span><i class="ri-map-pin-fill"></i></span>
-                                <p>Bhopal</p>
+                                <p>India</p>
                             </li>
                         </ul>
                     </div>
@@ -28,7 +28,7 @@
                                     <i class="ri-facebook-fill"></i>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="https://twitter.com">
                                     <i class="ri-twitter-fill"></i>
                                 </a>
@@ -37,10 +37,10 @@
                                 <a href="https://linkedin.com">
                                     <i class="ri-linkedin-fill"></i>
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="https://pinterest.com">
-                                    <i class="ri-pinterest-line"></i>
+                                <a href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" targte="_blank">
+                                    <i class="ri-youtube-fill"></i>
                                 </a>
                             </li>
                         </ul>
