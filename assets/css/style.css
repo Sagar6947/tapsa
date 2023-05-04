@@ -3937,7 +3937,7 @@ select {
 }
 
 .hero-wrap.style2 .hero-appointment .hero-appointment-img {
-  background-image: url(../img/banner-1.png);
+  background-image: url(../img/new-banner.png);
   height: 290px;
   width: 430px;
   z-index: 1;
@@ -5085,8 +5085,8 @@ select {
 }
 
 .appointment-wrap.style2 .appointment-content .content-feature-list {
-  -webkit-columns: 2;
-          columns: 2;
+  -webkit-columns: 4;
+          columns: 4;
   margin-bottom: 0;
 }
 
@@ -5934,6 +5934,7 @@ select {
   border-radius: 10px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  background: #fff;
 }
 
 .pricing-card .pricing-header .pricing-header-left h5 {

@@ -19,11 +19,12 @@
     <title><?= $title ?></title>
     <link rel="icon" type="image/png" href="<?= base_url() ?>assets/img/logo.png">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/sagar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
 
-  
+
     <!-- Theme Switcher Start -->
     <div class="switch-theme-mode">
         <label id="switch" class="switch">

@@ -147,15 +147,35 @@
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                     <div class="about-img-wrap st-about">
-                        <img src="<?= base_url() ?>/assets/img/count-ceasre.jpg" alt="Image" class="about-img-one">\
+                        <img src="<?= base_url() ?>/assets/img/count-ceasre.jpg" alt="Image" class="about-img-one">
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="about-content">
+                    <div class="about-content st-about-content">
                         <div class="content-title style1">
-                            <p>There are many variations of passages of Lorem Ipsum amets avoilble but majority have suffered alteration in some form, by injected humour or randomise words which don't sure amet consec tetur adicing.</p>
+                            <p>Electrohomeopathy is the system
+                                medicine discovered by a famous Itali
+                                Count Cesare Mattei in 1865. Electrohomeopathy
+                                Work by balancing homeostasis of a patient.
+                                Its medicine regulate the lymph and blood in
+                                the body by which the patient gets cured. This
+                                alternative form of medicine uses extracts from plants prOCeed by spagyric method refers to the "separation, purification and
+                                whicb an essence is produces. Any dangerous components
+                                are entirely eliminateg_guring manufacturing. Electrohomeopathic medicines are
+                                tottaly no Know side effects and don't interfere with any other
+                                treatments that the patient might be taking simultaneously.</p>
+
+                            <div class="quotation-line">
+                                <p>"Every disease originates in a change either of the Blood
+                                    or of the Lymph or of both at the Same time and Diseases
+                                    can be cured through vegetable kingdom since the
+                                    form a major part of human food"</p>
+                                <div class="quote-writer-name">
+                                    - Dr. Count Ceasre Mattei
+                                </div>
+                            </div>
                         </div>
-                        <div class="feature-item-wrap">
+                        <!-- <div class="feature-item-wrap">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <i class="ri-check-line"></i>
@@ -183,7 +203,7 @@
                                     <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque injected humour.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -191,261 +211,364 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Service Section Start -->
-    <section class="service-wrap style2 ptb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <div class="section-title style2 text-center mb-40">
-                        <span>Our Services</span>
-                        <h2>Think Hard &amp; Focus On The Patient's Well-Being</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="service-slider-one style2 owl-carousel">
-                <div class="service-card style2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="service-img">
-                        <img src="<?= base_url() ?>/assets/images/service-9.jpg" alt="Image">
-                        <span class="service-icon"><i class="flaticon-hospital-ward"></i></span>
-                    </div>
-                    <div class="service-info">
-                        <h3><a href="service-details.html">Patient Onboarding</a></h3>
-                        <p>It is a long established fact that reader will content of page when looks layout.</p>
-                        <a href="service-details.html" class="link style2">Explore More<i class="flaticon-right-arrow"></i></a>
-                    </div>
-                </div>
-                <div class="service-card style2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                    <div class="service-img">
-                        <img src="<?= base_url() ?>/assets/images/service-10.jpg" alt="Image">
-                        <span class="service-icon"><i class="flaticon-nurse"></i></span>
-                    </div>
-                    <div class="service-info">
-                        <h3><a href="service-details.html">Specialist Advise</a></h3>
-                        <p>It is a long established fact that reader will content of page when looks layout.</p>
-                        <a href="service-details.html" class="link style2">Explore More<i class="flaticon-right-arrow"></i></a>
-                    </div>
-                </div>
-                <div class="service-card style2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
-                    <div class="service-img">
-                        <img src="<?= base_url() ?>/assets/images/service-11.jpg" alt="Image">
-                        <span class="service-icon"><i class="flaticon-health-care"></i></span>
-                    </div>
-                    <div class="service-info">
-                        <h3><a href="service-details.html">Heart Checkup</a></h3>
-                        <p>It is a long established fact that reader will content of page when looks layout.</p>
-                        <a href="service-details.html" class="link style2">Explore More<i class="flaticon-right-arrow"></i></a>
-                    </div>
-                </div>
-                <div class="service-card style2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500">
-                    <div class="service-img">
-                        <img src="<?= base_url() ?>/assets/images/service-12.jpg" alt="Image">
-                        <span class="service-icon"><i class="flaticon-traumatology"></i></span>
-                    </div>
-                    <div class="service-info">
-                        <h3><a href="service-details.html">Orthopedic Solution</a></h3>
-                        <p>It is a long established fact that reader will content of page when looks layout.</p>
-                        <a href="service-details.html" class="link style2">Explore More<i class="flaticon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service Section End -->
-
-    <!-- Partner Area Start -->
-    <div class="container  pb-100">
-        <div class="partner-slider-one owl-carousel">
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-7.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-8.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-9.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-10.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-11.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="<?= base_url() ?>/assets/images/partner-12.png" alt="Image">
-            </div>
-        </div>
-    </div>
-    <!-- Partner Area End -->
-
-    <!-- Testimonial Section Start -->
-    <section class="testimonial-wrap style2 ptb-100 bg-athens">
+    <!-- Appointment Section Start -->
+    <section class="course-heading">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                     <div class="section-title style1 text-center mb-40">
-                        <span>Testimonial</span>
-                        <h2>Our Great Psychitrist Services Provided For You</h2>
+                        <span>Courses</span>
+                        <h2>Our Great Courses For You</h2>
                     </div>
-                </div>
-            </div>
-            <div class="testimonial-slider-two owl-carousel">
-                <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="client-info-area">
-                        <div class="client-info-wrap">
-                            <div class="client-img">
-                                <img src="<?= base_url() ?>/assets/images/client-1.jpg" alt="Image">
-                            </div>
-                            <div class="client-info">
-                                <h3>Jim Morison</h3>
-                                <span>Director, BAT</span>
-                            </div>
-                        </div>
-                        <div class="quote-icon">
-                            <i class="flaticon-straight-quotes"></i>
-                        </div>
-                    </div>
-                    <ul class="ratings list-style">
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                    </ul>
-                    <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
-                </div>
-                <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
-                    <div class="client-info-area">
-                        <div class="client-info-wrap">
-                            <div class="client-img">
-                                <img src="<?= base_url() ?>/assets/images/client-2.jpg" alt="Image">
-                            </div>
-                            <div class="client-info">
-                                <h3>Alex Cruis</h3>
-                                <span>CEO, IBAC</span>
-                            </div>
-                        </div>
-                        <div class="quote-icon">
-                            <i class="flaticon-straight-quotes"></i>
-                        </div>
-                    </div>
-                    <ul class="ratings list-style">
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                    </ul>
-                    <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
-                </div>
-                <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
-                    <div class="client-info-area">
-                        <div class="client-info-wrap">
-                            <div class="client-img">
-                                <img src="<?= base_url() ?>/assets/images/client-3.jpg" alt="Image">
-                            </div>
-                            <div class="client-info">
-                                <h3>Tom Haris</h3>
-                                <span>Engineer, Olleo</span>
-                            </div>
-                        </div>
-                        <div class="quote-icon">
-                            <i class="flaticon-straight-quotes"></i>
-                        </div>
-                    </div>
-                    <ul class="ratings list-style">
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                    </ul>
-                    <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
-                </div>
-                <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
-                    <div class="client-info-area">
-                        <div class="client-info-wrap">
-                            <div class="client-img">
-                                <img src="<?= base_url() ?>/assets/images/client-4.jpg" alt="Image">
-                            </div>
-                            <div class="client-info">
-                                <h3>Harry Jackson</h3>
-                                <span>Enterpreneur</span>
-                            </div>
-                        </div>
-                        <div class="quote-icon">
-                            <i class="flaticon-straight-quotes"></i>
-                        </div>
-                    </div>
-                    <ul class="ratings list-style">
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                    </ul>
-                    <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
-                </div>
-                <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
-                    <div class="client-info-area">
-                        <div class="client-info-wrap">
-                            <div class="client-img">
-                                <img src="<?= base_url() ?>/assets/images/client-5.jpg" alt="Image">
-                            </div>
-                            <div class="client-info">
-                                <h3>Chris Haris</h3>
-                                <span>MD, ITec</span>
-                            </div>
-                        </div>
-                        <div class="quote-icon">
-                            <i class="flaticon-straight-quotes"></i>
-                        </div>
-                    </div>
-                    <ul class="ratings list-style">
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                        <li><i class="ri-star-fill"></i></li>
-                    </ul>
-                    <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-8">
-                    <p class="mb-0 md-center">Are you impressed?Do you want to take our service here? <a href="appointment.html" class="link style1">Book An Appointment</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testimonial Section End -->
-
-    <!-- Appointment Section Start -->
-    <section class="appointment-wrap style2 bg-blue pb-100">
+    <section class="appointment-wrap style2 pb-100 ">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6">
+                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient">
                     <div class="appointment-content pt-100">
-                        <div class="content-title style2">
-                            <span>Best Solutions</span>
-                            <h2>Awesome Smart Health Can Make Your Life Easier</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate sit debitis, aut, perferendis praesentium alias, asperiores similique veniam vitae veritatis.</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <span>D.E.M.S</span>
+                                    <h2>Diploma in Electrohomeopathy Medicine &
+                                        Surgery (D.E.M.S)</h2>
+                                    <p>Duration: 2 Years 6 Monts</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2">
+                                    <span>Eligibility</span>
+                                    <p>10th (Matric) Passed or Equivalent recognised Board/council.</p>
+                                    <p>Minimum 50% marks Must Be Scored In TAPSA.Test.</p>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="content-feature-list list-style">
-                            <li><i class="ri-checkbox-circle-line"></i>Top Professional Team</li>
-                            <li><i class="ri-checkbox-circle-line"></i>World Class Dental Services</li>
-                            <li><i class="ri-checkbox-circle-line"></i>Discount On Treatment Fees</li>
-                            <li><i class="ri-checkbox-circle-line"></i>Multi-Functional Hospital</li>
-                            <li><i class="ri-checkbox-circle-line"></i>20+ Years Of Experience</li>
-                            <li><i class="ri-checkbox-circle-line"></i>Top Professional Specialist</li>
+                        <div class="toggle-down" data-toggle="1">
+                            <i class="fa-solid fa-angle-right myIcon-1"></i>
+                            <h5>Syllabus</h5>
+                        </div>
+                        <ul class="content-feature-list list-style toggle-views toggle-view-1">
+                            <li><i class="ri-checkbox-circle-line"></i>Anatomy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Physiology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Basics of Electrohpmeopathy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pharmacy - A</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Philosophy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Environmental Science</li>
+                            <li><i class="ri-checkbox-circle-line"></i>M. Jurispredence & Toxicology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Hygiene and Health</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Dietetics</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pathology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Materai Medica</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Practices of Medicines etc.</li>
                         </ul>
+                        <div class="toggle-down-fees" data-toggle-fees="1">
+                            <i class="fa-solid fa-angle-right myFeesIcon-1"></i>
+                            <h5>Fees Structure</h5>
+                        </div>
+                        <div class="row fee-strucher fee-strucher-view-1">
+                            <div class="col-lg-12">
+                                <h5 class="text-white">₹78200/ one time pay: ₹72000</h5>
+                                <p class="text-white">Extra 10% Rebett on the above Scored 75-80% Marks of Tapsa Test.</p>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>1st Year</h5>
+                                            <h2>₹32800<span>/One time: ₹29000</span></h2>
+                                        </div>
+
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees <i class="">12000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">18000</i></li>
+                                        <li class="checked">Development Fees<i class="">6800</i></li>
+                                        <li class="checked">Lab Fees<i class="">3100</i></li>
+                                        <li class="checked">Exam Fees<i class="">5500</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>2nd Year</h5>
+                                            <h2>₹45400<span>/One time: ₹43000</span></h2>
+                                        </div>
+
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees(Misllenous Fee) <i class="">3700</i></li>
+                                        <li class="checked">Tusion Fees<i class="">16000</i></li>
+                                        <li class="checked">Development Fees<i class="">6500</i></li>
+                                        <li class="checked">Lab Fees<i class="">2600</i></li>
+                                        <li class="checked">Exam Fees<i class="">4000</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="promo-bg bg-f">
-                        <a class="play-now" data-fancybox href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
-                            <i class="ri-play-fill"></i>
-                            <span class="ripple"></span>
-                        </a>
+                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient-2">
+                    <div class="appointment-content pt-100">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <span>B.E.M.S</span>
+                                    <h2>Bachelor in Electrohomeopathy Medicine &
+                                        Surgery (B.E.M.S)</h2>
+                                    <p>Duration: 4 Years 9 Monts</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2">
+                                    <span>Eligibility</span>
+                                    <p>-10+2 (ISC) and D.E.M.S Passed with PCB. Recognised Board/council.</p>
+                                    <p>Minimum 50% marks Must Be Scored In TAPS'A-Test</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="toggle-down" data-toggle="2">
+                            <i class="fa-solid fa-angle-right myIcon-2"></i>
+                            <h5>Syllabus</h5>
+                        </div>
+                        <ul class="content-feature-list list-style toggle-views toggle-view-2">
+                            <li><i class="ri-checkbox-circle-line"></i>Anatomy+</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Physiology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Basics of Electrohpmeopathy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pharmacy - A</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Philosophy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Environmental Science</li>
+                            <li><i class="ri-checkbox-circle-line"></i>M. Jurispredence & Toxicology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Hygiene and Health</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Dietetics</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pathology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Materai Medica</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Practices of Medicines - A</li>
+                            <li><i class="ri-checkbox-circle-line"></i>bstetrics & Gynaecology - A</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Ophthalmics & ENT</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Materia Medica -B</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Practices of Medicines - B</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Obstetrics & Gynaecology - B (Including Paediatrics Health)</li>
+                            <li><i class="ri-checkbox-circle-line"></i>FIRST AID & General Surgery & Fast Recovery of
+                                Accidental Situation etc.</li>
+                        </ul>
+                        <div class="toggle-down-fees" data-toggle-fees="2">
+                            <i class="fa-solid fa-angle-right myFeesIcon-2"></i>
+                            <h5>Fees Structure</h5>
+                        </div>
+                        <div class="row fee-strucher fee-strucher-view-2">
+                            <div class="col-lg-12">
+                                <h5 class="text-white">₹185600</h5>
+                                <p class="text-white">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>1st Year</h5>
+                                            <h2>₹51100</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees <i class="">12000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
+                                        <li class="checked">Development Fees<i class="">6000</i></li>
+                                        <li class="checked">Lab Fees<i class="">3600</i></li>
+                                        <li class="checked">Exam Fees<i class="">7500</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>2nd Year</h5>
+                                            <h2>₹44900</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Misllenous Fee <i class="">10000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
+                                        <li class="checked">Development Fees<i class="">5000</i></li>
+                                        <li class="checked">Lab Fees<i class="">2900</i></li>
+                                        <li class="checked">Exam Fees<i class="">7000</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>3rd Year</h5>
+                                            <h2>₹39700</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Misllenous Fee <i class="">6000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
+                                        <li class="checked">Development Fees<i class="">4500</i></li>
+                                        <li class="checked">Lab Fees<i class="">2700</i></li>
+                                        <li class="checked">Exam Fees<i class="">6500</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>4th Year</h5>
+                                            <h2>₹36800</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees <i class="">4500</i></li>
+                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
+                                        <li class="checked">Development Fees<i class="">4000</i></li>
+                                        <li class="checked">Lab Fees<i class="">2300</i></li>
+                                        <li class="checked">Exam Fees<i class="">6000</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>Enternship/ 9 Months</h5>
+                                            <h2>₹13100</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees <i class="">2200</i></li>
+                                        <li class="checked">Tusion Fees<i class="">8000</i></li>
+                                        <li class="checked">Development Fees<i class="">1100</i></li>
+                                        <li class="checked">Lab Fees<i class="">-1800</i></li>
+                                        <li class="checked">Award for student<i class="">13100</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient">
+                    <div class="appointment-content pt-100">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <span>MD.(E.H)</span>
+                                    <h2>Doctor of Medicine in Electrohomeopathy</h2>
+                                    <p>Duration: 2 Years 6 Monts</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2">
+                                    <span>Eligibility</span>
+                                    <p>-10+2 (ISC) and D.E.M.S Passed with PCB. Recognised Board/council.</p>
+                                    <p>Minimum 50% marks Must Be Scored In TAPS'A-Test</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="toggle-down" data-toggle="3">
+                            <i class="fa-solid fa-angle-right myIcon-3"></i>
+                            <h5>Syllabus</h5>
+                        </div>
+                        <ul class="content-feature-list list-style toggle-views toggle-view-3">
+                            <li><i class="ri-checkbox-circle-line"></i>Physiology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Gastrointestinal Diseases & etc for MD. EH (Liver & Gastro)</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Dermatology (Specific)</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Neurology (Specific) Pharmacy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pharmacy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Environmental Science</li>
+                            <li><i class="ri-checkbox-circle-line"></i>M. Jurispredence & Toxicology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Hygiene and Health</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Dietetics</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Philosophy</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Pathology</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Sexology (Specific)</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Gynae & Obstectrics</li>
+                            <li><i class="ri-checkbox-circle-line"></i>E.H. Medicines</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Materia Medica</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Practices of Medicines</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Diagnosis & Treatment</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Specific Field Extra Tonics Include For Division Wise etc.</li>
+                        </ul>
+                        <div class="toggle-down-fees" data-toggle-fees="3">
+                            <i class="fa-solid fa-angle-right myFeesIcon-3"></i>
+                            <h5>Fees Structure</h5>
+                        </div>
+                        <div class="row fee-strucher fee-strucher-view-3">
+                            <div class="col-lg-12">
+                                <h5 class="text-white">₹134200</h5>
+                                <p class="text-white">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>1st Year</h5>
+                                            <h2>₹71300</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Addmission Fees <i class="">24000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
+                                        <li class="checked">Development Fees<i class="">13000</i></li>
+                                        <li class="checked">Lab Fees<i class="">3500</i></li>
+                                        <li class="checked">Exam Fees<i class="">8800</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>2nd Year</h5>
+                                            <h2>₹62900</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Misllenous Fee <i class="">18000</i></li>
+                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
+                                        <li class="checked">Development Fees<i class="">12000</i></li>
+                                        <li class="checked">Lab Fees<i class="">2700</i></li>
+                                        <li class="checked">Exam Fees<i class="">8200</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
+                                <div class="pricing-card">
+                                    <div class="pricing-header">
+                                        <div class="pricing-header-left">
+                                            <h5>Enternship Thesis Clinical Records</h5>
+                                            <h2>₹39700</h2>
+                                        </div>
+                                    </div>
+                                    <ul class="pricing-features list-style">
+                                        <li class="checked">Misllenous Fee <i class="">6000</i></li>
+                                        <li class="unchecked">Tusion Fees<i class="">___</i></li>
+                                        <li class="unchecked">Development Fees<i class="">___</i></li>
+                                        <li class="unchecked">Lab Fees<i class="">___</i></li>
+                                        <li class="unchecked">Exam Fees<i class="">___</i></li>
+                                    </ul>
+                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -453,390 +576,46 @@
     </section>
     <!-- Appointment Section End -->
 
-    <!-- Why Choose Us Section Start -->
-    <section class="wh-wrap style2 pt-100">
+    <!-- About Section Start -->
+    <section class="about-wrap style2 ptb-100">
         <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="section-title style1 text-center mb-40">
+                        <span></span>
+                        <h2>Chief Managing Director (CMD)</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="wh-img-wrap">
-                        <form action="#" class="appointment-form">
-                            <h2>Book An Appointment</h2>
-                            <div class="form-group">
-                                <input type="text" placeholder="Full name">
-                            </div>
-                            <div class="form-group">
-                                <input type="number" placeholder="Phone Number">
-                            </div>
-                            <div class="form-group">
-                                <select name="select_doctor" id="select_doctor">
-                                    <option value="0" data-display="Select Doctor">Select Doctor</option>
-                                    <option value="1">Dr. Novlel Josef</option>
-                                    <option value="2">Dr. Fredrick Henry</option>
-                                    <option value="3">Dr. Steave Mark</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <input type="date">
-                            </div>
-                            <button type="submit" class="btn style2">Book Now</button>
-                        </form>
+                    <div class="about-img-wrap st-about">
+                        <img src="<?= base_url() ?>/assets/img/cmd.png" alt="Image" class="about-img-one cmd-image">
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="wh-content">
+                    <div class="about-content st-about-content">
                         <div class="content-title style1">
-                            <span>Why Choose us</span>
-                            <h2>Protect Your Health With Our Health Package</h2>
-                            <p>There are many variations of passages of Lorem Ipsum amets avoilble but majority have suffered alteration in some form, by injected humour or randomise words which don't sure amet consec tetur adicing.</p>
+                            <p></p>
+                            <p>प्रिय छात्रों एवं आदरणीय अभिवावकों जीवन सबसे किमती उपहार है, और स्वास्थ्य हमारा खजाना है। स्वास्थ्य का ध्यान रखना आवश्यक है। और यह डॉक्टरों की मदद से ही संभव है। दुनिया भर में कई अच्छे डॉक्टर समाज कल्याण के लिए बहुत मेहनत करते हैं और स्वस्थ जीवन जीने में हमारी मदद करते है। इसी पहल मे मेरी छोटी सी सहभागी और अथक प्रयास निरंतर 8 वर्षो से जारी है एवं मैं और मेरी टीम एक-एक लोगों को इलेक्ट्रोहोम्योपैथी के बारे मे जागरूक करने के लिए दिन रात काम कर रहे हैं।
+                            </p>
+                            <p>हमने अपने 8 वर्षों में वे अनुभव किया है कि कोई भी असाध्य एवं पुरानी बिमारी ( PCOS PCOD, PID, Cancer, Plegia, Chroronic Skin Disease, Infertility, Diabetes, Thyroid, Cardiovascular Disease, Chronic Liver Disease) All Type of Fever Etc में अचंभित एवं अविश्वसनीय परीणाम देखें एवं लिए (2000 से भी अधिक रोगी के) है। इलेक्ट्रोहोम्योपैथी एक मात्र पुरे भारत वर्ष एवं विश्व की पैथी है जिसका दूष प्रभाव शुन्य है। एवं इनकी दवा संपूर्ण रोग में काम करती है। हम इसे आज के एवं 200 वर्षों के सबसे
+
+                                सफल इलाज की पैथी की श्रेणी में अग्रणी पंक्ति में रखना अनुचित नहीं होगा ।
+
+                                हमारा विश्वास है कि आनेवाले कुछ वर्षों में भारत वर्ष के प्रत्येक व्यक्ति
+
+                                विशेष इस पद्धति से संपूर्ण ईलाज लेंगे।
+                            </p>
+
                         </div>
-                        <div class="feature-item-wrap">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="flaticon-pulse"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Good People Work</h3>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="flaticon-pills"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Live Healthy Life</h3>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="about.html" class="btn style7">Get More info</a>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Why Choose Us Section End -->
-
-    <!-- Portfolio Section Start -->
-    <section class="portfolio-wrap ptb-100">
-        <div class="container">
-            <div class="section-title style1 text-center mb-40">
-                <span>Our Portfolio</span>
-                <h2>All The Great Project That We've Done</h2>
-            </div>
-
-        </div>
-        <div class="portfolio-slider-two owl-carousel">
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                <img src="<?= base_url() ?>/assets/images/portfolio-7.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Surgery</a>
-                    <h3><a href="portfolio-details.html">Neuro Surgery</a></h3>
-                </div>
-            </div>
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
-                <img src="<?= base_url() ?>/assets/images/portfolio-8.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Health</a>
-                    <h3><a href="portfolio-details.html">Child Care</a></h3>
-                </div>
-            </div>
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
-                <img src="<?= base_url() ?>/assets/images/portfolio-1.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Cardiology</a>
-                    <h3><a href="portfolio-details.html">Cardio Surgery</a></h3>
-                </div>
-            </div>
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
-                <img src="<?= base_url() ?>/assets/images/portfolio-2.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Eye Care</a>
-                    <h3><a href="portfolio-details.html">Retina Checkup</a></h3>
-                </div>
-            </div>
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
-                <img src="<?= base_url() ?>/assets/images/portfolio-4.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Dental</a>
-                    <h3><a href="portfolio-details.html">Root Canal</a></h3>
-                </div>
-            </div>
-            <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="700">
-                <img src="<?= base_url() ?>/assets/images/portfolio-6.jpg" alt="Image">
-                <div class="portfolio-info">
-                    <a href="portfolio-category.html" class="portfolio-cat">Family</a>
-                    <h3><a href="portfolio-details.html">Adult Health</a></h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Section End -->
-
-    <!-- Team Section Start -->
-    <section class="team-wrap ptb-100 bg-chathamas">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="section-title style2 text-center mb-40">
-                        <span>Our Team</span>
-                        <h2>Meet Our Expert &amp; Experienced Team Members</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="team-slider-one owl-carousel">
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                    <img src="<?= base_url() ?>/assets/images/team-1.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#d4b2b1b0a6bdb7bf94a0b1b8bdfab7bbb9" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Fedrick Bonita</h3>
-                        <span>Othopedic Surgeon</span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
-                    <img src="<?= base_url() ?>/assets/images/team-2.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#ef898a8b9d868c84af9b8a8386c18c8082" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Ken Moris</h3>
-                        <span>Urology Efficient</span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
-                    <img src="<?= base_url() ?>/assets/images/team-3.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#66000302140f050d2612030a0f4805090b" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Luiz Frank</h3>
-                        <span>Neurosurgery Efficient</span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
-                    <img src="<?= base_url() ?>/assets/images/team-4.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#44222120362d272f043021282d6a272b29" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Selina Gomez</h3>
-                        <span>Surgery Efficient </span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
-                    <img src="<?= base_url() ?>/assets/images/team-5.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#1e787b7a6c777d755e6a7b7277307d7173" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Sarai Conn</h3>
-                        <span>Senior Dentist</span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team-card style1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="700">
-                    <img src="<?= base_url() ?>/assets/images/team-6.jpg" alt="Image">
-                    <div class="team-info">
-                        <a href="/cdn-cgi/l/email-protection#3e585b5a4c575d557e4a5b5257105d5153" class="team-mail"><i class="ri-mail-send-line"></i></a>
-                        <h3>Dr. Maureen Klein</h3>
-                        <span>Othopedic Surgeon</span>
-                        <ul class="social-profile style2 list-style">
-                            <li>
-                                <a target="_blank" href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team Section End -->
-
-    <!-- Blog Section Start -->
-    <section class="blog-wrap pt-100 pb-75">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 offset-xl-3  col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <div class="section-title style1 text-center mb-40">
-                        <span>Our Blog</span>
-                        <h2>Our Latest &amp; Most Popular Tips &amp; Tricks For You</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                    <div class="blog-card style2">
-                        <div class="blog-img">
-                            <img src="<?= base_url() ?>/assets/images/blog-5.jpg" alt="Image">
-                            <a href="posts-by-date.html" class="blog-date"><span>22</span> Jun</a>
-                        </div>
-                        <div class="blog-info">
-                            <ul class="blog-metainfo  list-style">
-                                <li><i class="ri-user-unfollow-line"></i><a href="posts-by-author.html">Admin</a></li>
-                                <li><i class="ri-wechat-line"></i>No Comment</li>
-                            </ul>
-                            <h3><a href="blog-details-right-sidebar.html">Telehealth Services Are Ready To Help Your Family </a></h3>
-                            <p>Lorem Ipsum is simply dummy text the and standard dummy text ever since.</p>
-                            <a href="blog-details-right-sidebar.html" class="link style2">Read More<i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                    <div class="blog-card style2">
-                        <div class="blog-img">
-                            <img src="<?= base_url() ?>/assets/images/blog-6.jpg" alt="Image">
-                            <a href="posts-by-date.html" class="blog-date"><span>17</span>Jun</a>
-                        </div>
-                        <div class="blog-info">
-                            <ul class="blog-metainfo  list-style">
-                                <li><i class="ri-user-unfollow-line"></i><a href="posts-by-author.html">Admin</a></li>
-                                <li><i class="ri-wechat-line"></i>No Comment</li>
-                            </ul>
-                            <h3><a href="blog-details-right-sidebar.html">10 Tips To Lead A Healthy And Happy Life</a></h3>
-                            <p>Lorem Ipsum is simply dummy text the and standard dummy text ever since.</p>
-                            <a href="blog-details-right-sidebar.html" class="link style2">Read More<i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">
-                    <div class="blog-card style2">
-                        <div class="blog-img">
-                            <img src="<?= base_url() ?>/assets/images/blog-4.jpg" alt="Image">
-                            <a href="posts-by-date.html" class="blog-date"><span>25</span> May</a>
-                        </div>
-                        <div class="blog-info">
-                            <ul class="blog-metainfo  list-style">
-                                <li><i class="ri-user-unfollow-line"></i><a href="posts-by-author.html">Admin</a></li>
-                                <li><i class="ri-wechat-line"></i>No Comment</li>
-                            </ul>
-                            <h3><a href="blog-details-right-sidebar.html">The Day I'd Spent At Square Medical Center</a></h3>
-                            <p>Lorem Ipsum is simply dummy text the and standard dummy text ever since.</p>
-                            <a href="blog-details-right-sidebar.html" class="link style2">Read More<i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog Section End -->
+    <!-- About Section End -->
 
     <!-- Footer Section Start -->
     <?php include('includes/footer.php') ?>
@@ -844,6 +623,40 @@
 
 </div>
 <!-- Page Wrapper End -->
+
+<script>
+    let toggleBtn = document.querySelectorAll('.toggle-down');
+    toggleBtn.forEach(buttons => {
+        buttons.addEventListener('click', event => {
+            let styles = {
+                "visibility": "visible",
+                "opacity": "0",
+                "height": "100%"
+            };
+            let dataA = buttons.getAttribute('data-toggle');
+            let wrapper = document.querySelector('.toggle-view-' + dataA);
+            let icon = document.querySelector('.myIcon-' + dataA);
+            icon.classList.toggle('fa-angle-down');
+            wrapper.classList.toggle('open');
+        });
+    });
+
+    let toggleFeesBtn = document.querySelectorAll('.toggle-down-fees');
+    toggleFeesBtn.forEach(buttons => {
+        buttons.addEventListener('click', event => {
+            let styles = {
+                "visibility": "visible",
+                "opacity": "0",
+                "height": "100%"
+            };
+            let dataA = buttons.getAttribute('data-toggle-fees');
+            let wrapper = document.querySelector('.fee-strucher-view-' + dataA);
+            let icon = document.querySelector('.myFeesIcon-' + dataA);
+            icon.classList.toggle('fa-angle-down');
+            wrapper.classList.toggle('open');
+        });
+    });
+</script>
 <?php
 include('includes/footer-link.php');
 ?>
