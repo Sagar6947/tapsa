@@ -15,6 +15,17 @@
 <script src="<?= base_url() ?>assets/js/jquery.appear.js"></script>
 <script src="<?= base_url() ?>assets/js/tweenmax.min.js"></script>
 <script src="<?= base_url() ?>assets/js/main.js"></script>
+
+<script>
+    let menuLink = document.querySelectorAll('.nav-item');
+    menuLink.forEach(links => {
+        links.addEventListener('click', function() {
+            let navBar = document.querySelector('#navbarSupportedContent');
+            navBar.classList.remove('open');
+        });
+    });
+</script>
+
 </body>
 
 </html>

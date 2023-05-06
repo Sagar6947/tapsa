@@ -72,18 +72,19 @@
         autoHeight: true,
     });
     $(".hero-slider-two").owlCarousel({
-        nav: true,
-        dots: false,
+        // nav: true,
+        // dots: false,
         loop: true,
         margin: 20,
         items: 1,
-        navText: ['<i class="ri-arrow-left-s-line"></i>', '<i class="ri-arrow-right-s-line"></i>'],
+        // navText: ['<i class="ri-arrow-left-s-line"></i>', '<i class="ri-arrow-right-s-line"></i>'],
         thumbs: false,
         smartSpeed: 1300,
         autoplay: false,
-        autoplayTimeout: 4000,
+        // autoplayTimeout: 4000,
         autoplayHoverPause: false,
         responsiveClass: true,
+        touchDrag: false,
         autoHeight: true,
     });
     $(".hero-slider-three").owlCarousel({
@@ -230,7 +231,7 @@
         thumbs: false,
         smartSpeed: 1300,
         center:true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: false,
         responsiveClass: true,

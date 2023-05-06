@@ -7,103 +7,85 @@
 
     <!-- Header Section End -->
 
-    <!-- Hero Section Start -->
-    <section class="hero-wrap style2">
-        <img src="<?= base_url() ?>/assets/images/hero-shape-3.png" alt="Image" class="hero-shape-one bounce">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-6">
-                    <div class="hero-content" data-speed="0.10" data-revert="true">
-                        <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Affiliated By The E.H.E & Research Council (U.P)</h1>
-                        <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">An Authorised By : Ministry of Health & Family Welfare Govt. of India For Promotion Research & Development Vide order No. V.25011/276/2009-HR. Govt of India.</p>
-                        <div class="hero-btn" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
-                            <a href="about.html" class="btn style1">Read More</a>
-                            <a class="play-video" href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" target="_blank">
-                                <span class="video-icon">
-                                    <i class="ri-play-fill"></i>
-                                </span>
-                                <span> Watch Video</span>
-                            </a>
-                        </div>
-                        <div class="counter-card-wrap" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
-                            <div class="counter-card style1">
-                                <span class="counter-icon">
-                                    <i class="flaticon-emergency-kit"></i>
-                                </span>
-                                <div class="counter-text">
-                                    <h2 class="counter-num">
-                                        <span class="odometer" data-count="60"></span>
-                                        <span class="target">+</span>
-                                    </h2>
-                                    <p>Project Completed</p>
-                                </div>
-                            </div>
-                            <div class="counter-card style1">
-                                <span class="counter-icon">
-                                    <i class="flaticon-headache"></i>
-                                </span>
-                                <div class="counter-text">
-                                    <h2 class="counter-num">
-                                        <span class="odometer" data-count="99"></span>
-                                        <span class="target">%</span>
-                                    </h2>
-                                    <p>Patients Satisfied</p>
+    <section class="hero-wrap style3 bg-f pb-100">
+        <a href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" target="_blank" class="events-none-overlay"></a>
+        <img src="<?= base_url() ?>assets/img/hero-shape-5.png" alt="Image" class="hero-shape-one bounce">
+        <img src="<?= base_url() ?>assets/img/hero-shape-6.png" alt="Image" class="hero-shape-two animationFramesTwo">
+        <div class="hero-slider-two owl-carousel owl-loaded ">
+
+            <div class="owl-stage-outer owl-height" style="height: 700px;">
+                <div class="owl-stage">
+                    <div class="owl-item active">
+                        <div class="hero-slide-item">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <div class="hero-content">
+                                            <h1>TAPSA ELECTROHOMEOPATHY Medical Institute</h1>
+                                            <p> बिहार का नं० 1 एक मात्र संपूर्ण रूप से इलैक्ट्रो होम्योपैथी को समर्पित मेडिकल कॉलेज</p>
+                                            <div class="hero-btn">
+                                                <!-- <a href="<?= base_url() ?>#admission" class="btn style1 banner-btn">Admission</a> -->
+                                                <a class="play-video banner-btn" href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" target="_blank">
+                                                    <span class="video-icon">
+                                                        <i class="ri-play-fill"></i>
+                                                    </span>
+                                                    <span> Watch Video</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-img-wrap bg-f hero-bg-one">
+                                            <img src="assets/img/hero/hero-shape-7.png" alt="Image" class="hero-shape-three">
+                                          
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="hero-appointment" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                        <img src="<?= base_url() ?>/assets/images/hero-shape-4.png" alt="Image" class="hero-shape-two rotate">
-                        <div class="hero-appointment-img bg-f"></div>
-                    </div>
-                    <div class="hero-doctor" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
-                        <div class="hero-doctor-bg bg-f"></div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
-    <!-- Hero Section End -->
 
-    <!-- Promo Section Start -->
+
     <div class="promo-wrap style2 pb-100">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <div class="promo-card style2">
                         <div class="promo-icon">
-                            <i class="flaticon-admision-form"></i>
+                            <img src="<?= base_url() ?>assets/img/Ministry_of_Health_India.svg" alt="health-ministry">
                         </div>
                         <div class="promo-info">
-                            <h3>Contact Our Doctor</h3>
-                            <p>There are many variations of passages of words are valid.</p>
-                            <a href="service-one.html" class="link style2">View All Services <i class="flaticon-right-arrow"></i></a>
+                            <h3>Authorised By </h3>
+                            <p> Ministry of Health & Family Welfare Govt. of India For Promotion Research & Development Vide order No. V.25011/276/2009-HR. Govt of India</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <div class="promo-card style2">
                         <div class="promo-icon">
-                            <i class="flaticon-aid-man"></i>
+                            <img src="<?= base_url() ?>assets/img/ministry-of-corporate-affairs.png" alt="ministry-of-corporate-affairs">
                         </div>
                         <div class="promo-info">
-                            <h3>Need Family Health</h3>
-                            <p>There are many variations of passages of words are valid.</p>
-                            <a href="appointment.html" class="link style2">Book Appointment <i class="flaticon-right-arrow"></i></a>
+                            <h3>An Autonomus</h3>
+                            <p>An Autonomus Body, registered under Section 8 institution Act of the (2013) Ministry of Corporate Affairs, Goverment of India</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <div class="promo-card style2">
                         <div class="promo-icon">
-                            <i class="flaticon-support"></i>
+                            <img src="<?= base_url() ?>assets/img/gmp-gold.png" alt="gmp">
+                            <img src="<?= base_url() ?>assets/img/iso-9001.png" alt="iso">
                         </div>
                         <div class="promo-info">
-                            <h3>24/7 Hours Support</h3>
-                            <p>We are available 24/7 to assist you with any questions or concerns you may have.</p>
-                            <a href="#" class="link style2">Provide Registration<i class="flaticon-right-arrow"></i></a>
+                            <h3>ISO Certified</h3>
+                            <p>TAPSA Electrohomeopathy
+                                Medical Institute (Promotion, Research & Development) Bihar is an GMP & An ISO 9001 : 2015 Certified Organisation</p>
                         </div>
                     </div>
                 </div>
@@ -113,16 +95,16 @@
                     <div class="col-xl-8 col-lg-7">
                         <div class="cta-content">
                             <div class="cta-logo">
-                                <img src="<?= base_url() ?>/assets/images/cta-icon-2.png" alt="Image">
+                                <img src="<?= base_url() ?>assets/img/hesitate.png" alt="Image">
                             </div>
                             <div class="content-title style2">
                                 <h2>Don't Hesitate To Contact us</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore voluptatem possimus quibusdam veritatis. Accusamus ipsum saepe quas.</p>
+                                <p>For further inquiries, please do not hesitate to contact us through our email or phone number provided on our website. We look forward to hearing from you soon.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-5">
-                        <div class="cta-btn">
+                        <div class="cta-btn d-flex">
                             <a href="appointment.html" class="btn style2">Make Appointment</a>
                             <a href="contact.html" class="btn style6">Contact Us</a>
                         </div>
@@ -131,13 +113,156 @@
             </div>
         </div>
     </div>
-    <!-- Promo Section End -->
 
-    <!-- About Section Start -->
-    <section class="about-wrap style2 ptb-100">
+
+    <section class="service-wrap  ptb-100" id="services">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <div class="section-title style1 text-center mb-40">
+                        <span>Our Services</span>
+                        <h2>Hijama or Cupping Therapy</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-slider-two owl-carousel">
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/5.JPG" alt="Image">
+
+                </div>
+
+
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/6.JPG" alt="Image">
+
+                </div>
+
+
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/7.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/8.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/9.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/10.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/11.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/12.JPG" alt="Image">
+
+                </div>
+                <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <img src="<?= base_url() ?>/assets/img/13.JPG" alt="Image">
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="wh-wrap style3 pb-100 st-bg-gredient pt-5">
+        <div class="container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 order-md-2 order-2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="wh-content">
+                        <div class="content-title style2">
+                            <h2>Hot Water Imerssion Therapy बार बार किडनी के Dialysis करवाने से बचें</h2>
+                        </div>
+                        <div class="feature-item-wrap">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <p>Different research and studies have proved that if you immerse yourself in the hot water, it can help your mind and body relax. There has also been some substantial evidence that shows how impactful this can be on your overall daily living and health.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <p>The experience may seem to be simple but the results are surprisingly amazing when you are a part of it. Soak yourself in warm water for just 20 minutes and your body gets eased out, letting you experience some positive psychological changes.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <p>HWI rejuvenates your mind and body from the deep within while allowing you to get rid of all the negative vibes. For centuries, people have sought the wellness benefits of immersing themselves in water.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="about.html" class="btn style1">Get More info</a> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-md-1 order-1 aos-init aos-animate" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+                    <div class="wh-img-wrap">
+                        <img src="<?= base_url() ?>assets/img/14.JPG" alt="hot-water">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="service-wrap bg-athens ptb-100">
+        <div class="container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-8 order-lg-1 order-md-2 order-2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+                    <div class="wh-content">
+                        <div class="content-title style2 text-black">
+
+                            <h2 class="text-black pb-3">Other Services</h2>
+                        </div>
+                        <ul class="content-feature-list list-style">
+                            <li><i class="ri-checkbox-circle-line"></i>हमारे यहाँ बाँझपन (औरत एवं मर्द) का सफल ईलाज सिर्फ दवा से होता है।
+
+                            </li>
+                            <li><i class="ri-checkbox-circle-line"></i>हमारे यहाँ पेट, हृदय, गुर्दा, डायबिटिज, मस्तिष्क, थायराइड, चर्म, बावासीर, नस एवं कैंसर व लकवा रोग का भी ईलाज दवा एवं अन्य थैरेपी विधी से होता है।
+
+                            </li>
+                            <li><i class="ri-checkbox-circle-line"></i>हमारे यहाँ पेट | उदर विकार से संबधित सभी बिमारायों का ईलाज सिर्फ दवा से होता है ।
+
+                            </li>
+                            <li><i class="ri-checkbox-circle-line"></i>हमारी दवा Courier के माध्यम से आप भारत वर्ष एवं विदेशों मे भी मंगवा सकते है।</li>
+
+                            <li><i class="ri-checkbox-circle-line"></i>हमारी दवा का दुष्य प्रभाव शुन्य है।</li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 order-lg-2 order-md-1 order-1" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+                    <div class="wh-img-wrap">
+                        <img src="<?= base_url() ?>/assets/img/about.png" alt="Image" style="height:350px;border-radius: 15px;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-wrap style2 ptb-100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <div class="section-title style1 text-center mb-40">
                         <span></span>
                         <h2>What is Electrohomeopathy ?</h2>
@@ -145,12 +270,12 @@
                 </div>
             </div>
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
                     <div class="about-img-wrap st-about">
                         <img src="<?= base_url() ?>/assets/img/count-ceasre.jpg" alt="Image" class="about-img-one">
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-lg-8" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
                     <div class="about-content st-about-content">
                         <div class="content-title style1">
                             <p>Electrohomeopathy is the system
@@ -175,47 +300,18 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="feature-item-wrap">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="ri-check-line"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Mental health Solutions</h3>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque injected humour.</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="ri-check-line"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Rapid Patient Improvement</h3>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque injected humour.</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="ri-check-line"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>World Class Treatment</h3>
-                                    <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque injected humour.</p>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Section End -->
+
 
     <!-- Appointment Section Start -->
-    <section class="course-heading">
+    <section class="course-heading" id="courses">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                     <div class="section-title style1 text-center mb-40">
                         <span>Courses</span>
                         <h2>Our Great Courses For You</h2>
@@ -224,26 +320,28 @@
             </div>
         </div>
     </section>
-    <section class="appointment-wrap style2 pb-100 ">
+    <section class="appointment-wrap style2 pb-50">
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient">
-                    <div class="appointment-content pt-100">
-                        <div class="row">
+            <div class="row gx-5 m-1">
+                <div class="col-lg-12 mb-5 pb-3 rounded st-bg-gredient" id="dems">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
                             <div class="col-lg-6">
                                 <div class="content-title style2">
-                                    <span>D.E.M.S</span>
-                                    <h2>Diploma in Electrohomeopathy Medicine &
-                                        Surgery (D.E.M.S)</h2>
+                                    <!--<span>D.E.M.S</span>-->
+                                    <h2>D.E.M.S</h2>
                                     <p>Duration: 2 Years 6 Monts</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-4">
                                 <div class="content-title style2">
                                     <span>Eligibility</span>
                                     <p>10th (Matric) Passed or Equivalent recognised Board/council.</p>
                                     <p>Minimum 50% marks Must Be Scored In TAPSA.Test.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2 text-center">
+                                    <img src="<?= base_url() ?>assets/img/dems.png" alt="dems" width="300px" class="rounded" style="object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -265,74 +363,79 @@
                             <li><i class="ri-checkbox-circle-line"></i>Materai Medica</li>
                             <li><i class="ri-checkbox-circle-line"></i>Practices of Medicines etc.</li>
                         </ul>
-                        <div class="toggle-down-fees" data-toggle-fees="1">
-                            <i class="fa-solid fa-angle-right myFeesIcon-1"></i>
-                            <h5>Fees Structure</h5>
-                        </div>
-                        <div class="row fee-strucher fee-strucher-view-1">
-                            <div class="col-lg-12">
-                                <h5 class="text-white">₹78200/ one time pay: ₹72000</h5>
-                                <p class="text-white">Extra 10% Rebett on the above Scored 75-80% Marks of Tapsa Test.</p>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>1st Year</h5>
-                                            <h2>₹32800<span>/One time: ₹29000</span></h2>
-                                        </div>
+                        <!--<div class="toggle-down-fees" data-toggle-fees="1">-->
+                        <!--    <i class="fa-solid fa-angle-right myFeesIcon-1"></i>-->
+                        <!--    <h5>Fees Structure</h5>-->
+                        <!--</div>-->
+                        <!--<div class="fee-strucher fee-strucher-view-1">-->
+                        <!--    <div class="row">-->
+                        <!--        <div class="col-lg-12">-->
+                        <!--            <h5 class="text-dark">₹78200/ one time pay: ₹72000</h5>-->
+                        <!--            <p class="text-dark">Extra 10% Rebett on the above Scored 75-80% Marks of Tapsa Test.</p>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>1st Year</h5>-->
+                        <!--                        <h2>₹32800<span>/One time: ₹29000</span></h2>-->
+                        <!--                    </div>-->
 
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees <i class="">12000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">18000</i></li>
-                                        <li class="checked">Development Fees<i class="">6800</i></li>
-                                        <li class="checked">Lab Fees<i class="">3100</i></li>
-                                        <li class="checked">Exam Fees<i class="">5500</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>2nd Year</h5>
-                                            <h2>₹45400<span>/One time: ₹43000</span></h2>
-                                        </div>
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees <i class="">12000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">18000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">6800</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">3100</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">5500</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>2nd Year</h5>-->
+                        <!--                        <h2>₹45400<span>/One time: ₹43000</span></h2>-->
+                        <!--                    </div>-->
 
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees(Misllenous Fee) <i class="">3700</i></li>
-                                        <li class="checked">Tusion Fees<i class="">16000</i></li>
-                                        <li class="checked">Development Fees<i class="">6500</i></li>
-                                        <li class="checked">Lab Fees<i class="">2600</i></li>
-                                        <li class="checked">Exam Fees<i class="">4000</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                        </div>
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees(Misllenous Fee) <i class="">3700</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">16000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">6500</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">2600</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">4000</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                     </div>
                 </div>
-                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient-2">
-                    <div class="appointment-content pt-100">
-                        <div class="row">
+                <div class="col-lg-12 mb-5 pb-3 rounded st-bg-gredient-2" id="bems">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
                             <div class="col-lg-6">
                                 <div class="content-title style2">
-                                    <span>B.E.M.S</span>
-                                    <h2>Bachelor in Electrohomeopathy Medicine &
-                                        Surgery (B.E.M.S)</h2>
+                                    <!--<span>B.E.M.S</span>-->
+                                    <h2>B.E.M.S</h2>
                                     <p>Duration: 4 Years 9 Monts</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-4">
                                 <div class="content-title style2">
                                     <span>Eligibility</span>
                                     <p>-10+2 (ISC) and D.E.M.S Passed with PCB. Recognised Board/council.</p>
                                     <p>Minimum 50% marks Must Be Scored In TAPS'A-Test</p>
                                 </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2 text-center">
+                                    <img src="<?= base_url() ?>assets/img/bems.png" alt="eems" width="300px" class="rounded" style="object-fit: cover;">
+                                </div>
+
                             </div>
                         </div>
                         <div class="toggle-down" data-toggle="2">
@@ -360,124 +463,129 @@
                             <li><i class="ri-checkbox-circle-line"></i>FIRST AID & General Surgery & Fast Recovery of
                                 Accidental Situation etc.</li>
                         </ul>
-                        <div class="toggle-down-fees" data-toggle-fees="2">
-                            <i class="fa-solid fa-angle-right myFeesIcon-2"></i>
-                            <h5>Fees Structure</h5>
-                        </div>
-                        <div class="row fee-strucher fee-strucher-view-2">
-                            <div class="col-lg-12">
-                                <h5 class="text-white">₹185600</h5>
-                                <p class="text-white">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>1st Year</h5>
-                                            <h2>₹51100</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees <i class="">12000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
-                                        <li class="checked">Development Fees<i class="">6000</i></li>
-                                        <li class="checked">Lab Fees<i class="">3600</i></li>
-                                        <li class="checked">Exam Fees<i class="">7500</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>2nd Year</h5>
-                                            <h2>₹44900</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Misllenous Fee <i class="">10000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
-                                        <li class="checked">Development Fees<i class="">5000</i></li>
-                                        <li class="checked">Lab Fees<i class="">2900</i></li>
-                                        <li class="checked">Exam Fees<i class="">7000</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>3rd Year</h5>
-                                            <h2>₹39700</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Misllenous Fee <i class="">6000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
-                                        <li class="checked">Development Fees<i class="">4500</i></li>
-                                        <li class="checked">Lab Fees<i class="">2700</i></li>
-                                        <li class="checked">Exam Fees<i class="">6500</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>4th Year</h5>
-                                            <h2>₹36800</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees <i class="">4500</i></li>
-                                        <li class="checked">Tusion Fees<i class="">20000</i></li>
-                                        <li class="checked">Development Fees<i class="">4000</i></li>
-                                        <li class="checked">Lab Fees<i class="">2300</i></li>
-                                        <li class="checked">Exam Fees<i class="">6000</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>Enternship/ 9 Months</h5>
-                                            <h2>₹13100</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees <i class="">2200</i></li>
-                                        <li class="checked">Tusion Fees<i class="">8000</i></li>
-                                        <li class="checked">Development Fees<i class="">1100</i></li>
-                                        <li class="checked">Lab Fees<i class="">-1800</i></li>
-                                        <li class="checked">Award for student<i class="">13100</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                        </div>
+                        <!--<div class="toggle-down-fees" data-toggle-fees="2">-->
+                        <!--    <i class="fa-solid fa-angle-right myFeesIcon-2"></i>-->
+                        <!--    <h5>Fees Structure</h5>-->
+                        <!--</div>-->
+                        <!--<div class="fee-strucher fee-strucher-view-2">-->
+                        <!--    <div class="row">-->
+                        <!--        <div class="col-lg-12">-->
+                        <!--            <h5 class="text-dark">₹185600</h5>-->
+                        <!--            <p class="text-dark">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>1st Year</h5>-->
+                        <!--                        <h2>₹51100</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees <i class="">12000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">22000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">6000</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">3600</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">7500</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>2nd Year</h5>-->
+                        <!--                        <h2>₹44900</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Misllenous Fee <i class="">10000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">20000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">5000</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">2900</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">7000</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>3rd Year</h5>-->
+                        <!--                        <h2>₹39700</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Misllenous Fee <i class="">6000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">20000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">4500</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">2700</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">6500</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>4th Year</h5>-->
+                        <!--                        <h2>₹36800</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees <i class="">4500</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">20000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">4000</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">2300</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">6000</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>Enternship/ 9 Months</h5>-->
+                        <!--                        <h2>₹13100</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees <i class="">2200</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">8000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">1100</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">-1800</i></li>-->
+                        <!--                    <li class="checked">Award for student<i class="">13100</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                     </div>
                 </div>
-                <div class="col-lg-12 mb-5 pb-5 rounded st-bg-gredient">
-                    <div class="appointment-content pt-100">
-                        <div class="row">
+                <div class="col-lg-12 mb-5 pb-3 rounded st-bg-gredient" id="mdeh">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
                             <div class="col-lg-6">
                                 <div class="content-title style2">
-                                    <span>MD.(E.H)</span>
-                                    <h2>Doctor of Medicine in Electrohomeopathy</h2>
+                                    <!--<span></span>-->
+                                    <h2>MD.(E.H)</h2>
                                     <p>Duration: 2 Years 6 Monts</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-4">
                                 <div class="content-title style2">
                                     <span>Eligibility</span>
                                     <p>-10+2 (ISC) and D.E.M.S Passed with PCB. Recognised Board/council.</p>
                                     <p>Minimum 50% marks Must Be Scored In TAPS'A-Test</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-4">
+                                <div class="content-title style2 text-center">
+                                    <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -505,82 +613,230 @@
                             <li><i class="ri-checkbox-circle-line"></i>Diagnosis & Treatment</li>
                             <li><i class="ri-checkbox-circle-line"></i>Specific Field Extra Tonics Include For Division Wise etc.</li>
                         </ul>
-                        <div class="toggle-down-fees" data-toggle-fees="3">
-                            <i class="fa-solid fa-angle-right myFeesIcon-3"></i>
-                            <h5>Fees Structure</h5>
-                        </div>
-                        <div class="row fee-strucher fee-strucher-view-3">
-                            <div class="col-lg-12">
-                                <h5 class="text-white">₹134200</h5>
-                                <p class="text-white">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>1st Year</h5>
-                                            <h2>₹71300</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Addmission Fees <i class="">24000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
-                                        <li class="checked">Development Fees<i class="">13000</i></li>
-                                        <li class="checked">Lab Fees<i class="">3500</i></li>
-                                        <li class="checked">Exam Fees<i class="">8800</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>2nd Year</h5>
-                                            <h2>₹62900</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Misllenous Fee <i class="">18000</i></li>
-                                        <li class="checked">Tusion Fees<i class="">22000</i></li>
-                                        <li class="checked">Development Fees<i class="">12000</i></li>
-                                        <li class="checked">Lab Fees<i class="">2700</i></li>
-                                        <li class="checked">Exam Fees<i class="">8200</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">
-                                <div class="pricing-card">
-                                    <div class="pricing-header">
-                                        <div class="pricing-header-left">
-                                            <h5>Enternship Thesis Clinical Records</h5>
-                                            <h2>₹39700</h2>
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-features list-style">
-                                        <li class="checked">Misllenous Fee <i class="">6000</i></li>
-                                        <li class="unchecked">Tusion Fees<i class="">___</i></li>
-                                        <li class="unchecked">Development Fees<i class="">___</i></li>
-                                        <li class="unchecked">Lab Fees<i class="">___</i></li>
-                                        <li class="unchecked">Exam Fees<i class="">___</i></li>
-                                    </ul>
-                                    <a href="javascript: void(0);" class="btn style2">Call Now</a>
-                                </div>
+                        <!--<div class="toggle-down-fees" data-toggle-fees="3">-->
+                        <!--    <i class="fa-solid fa-angle-right myFeesIcon-3"></i>-->
+                        <!--    <h5>Fees Structure</h5>-->
+                        <!--</div>-->
+                        <!--<div class=" fee-strucher fee-strucher-view-3">-->
+                        <!--    <div class="row">-->
+                        <!--        <div class="col-lg-12">-->
+                        <!--            <h5 class="text-dark">₹134200</h5>-->
+                        <!--            <p class="text-dark">Extra 10% of Total Amount Less of the Students also Scored Marks Equivalent 75 - 80% of TAPSA Test.</p>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>1st Year</h5>-->
+                        <!--                        <h2>₹71300</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Admission Fees <i class="">24000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">22000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">13000</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">3500</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">8800</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>2nd Year</h5>-->
+                        <!--                        <h2>₹62900</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Misllenous Fee <i class="">18000</i></li>-->
+                        <!--                    <li class="checked">Tusion Fees<i class="">22000</i></li>-->
+                        <!--                    <li class="checked">Development Fees<i class="">12000</i></li>-->
+                        <!--                    <li class="checked">Lab Fees<i class="">2700</i></li>-->
+                        <!--                    <li class="checked">Exam Fees<i class="">8200</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--        <div class="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate">-->
+                        <!--            <div class="pricing-card">-->
+                        <!--                <div class="pricing-header">-->
+                        <!--                    <div class="pricing-header-left">-->
+                        <!--                        <h5>Enternship Thesis Clinical Records</h5>-->
+                        <!--                        <h2>₹39700</h2>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                        <!--                <ul class="pricing-features list-style">-->
+                        <!--                    <li class="checked">Misllenous Fee <i class="">6000</i></li>-->
+                        <!--                    <li class="unchecked">Tusion Fees<i class="">___</i></li>-->
+                        <!--                    <li class="unchecked">Development Fees<i class="">___</i></li>-->
+                        <!--                    <li class="unchecked">Lab Fees<i class="">___</i></li>-->
+                        <!--                    <li class="unchecked">Exam Fees<i class="">___</i></li>-->
+                        <!--                </ul>-->
+                        <!--                <a href="tel:9934184106" class="btn style2">Call Now</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row justify-content-center" style="gap: 15px;">
+                    <div class="col-xl-12 col-lg-12 col-md-12 d-flex align-items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <div class="col-xl-6">
+                            <div class="section-title style1 text-center mb-40">
+                                <h2>Here are some more courses </h2>
                             </div>
                         </div>
                     </div>
+               
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="dhch">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.H.C.H.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
                 </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="dhc">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.H.C.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="dvse">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.V.S.E.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="ddm">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.D.M.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="ddhm">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.D.H.M.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="dent">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.E.N.T.</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-5 pb-3 rounded st-bg-gredient" id="dcc">
+                    <div class="appointment-content pt-30">
+                        <div class="row reverse-in-mobile">
+                            <div class="col-lg-6">
+                                <div class="content-title style2">
+                                    <!--<span></span>-->
+                                    <h2>D.C.C</h2>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-2"></div>-->
+                            <!--<div class="col-lg-4">-->
+                            <!--    <div class="content-title style2 text-center">-->
+                            <!--        <img src="<?= base_url() ?>assets/img/md.png" alt="md" width="300px" class="rounded" style="object-fit: cover;">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                        </div>
+                        
+                    </div>
+                </div>
+                 </div>
             </div>
         </div>
     </section>
     <!-- Appointment Section End -->
 
     <!-- About Section Start -->
-    <section class="about-wrap style2 ptb-100">
+    <section class="about-wrap style2 pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="" data-aos-duration="600" data-aos-delay="100">
                     <div class="section-title style1 text-center mb-40">
                         <span></span>
                         <h2>Chief Managing Director (CMD)</h2>
@@ -588,12 +844,12 @@
                 </div>
             </div>
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-lg-4" data-aos="" data-aos-duration="600" data-aos-delay="100">
                     <div class="about-img-wrap st-about">
                         <img src="<?= base_url() ?>/assets/img/cmd.png" alt="Image" class="about-img-one cmd-image">
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <div class="col-lg-8" data-aos="" data-aos-duration="600" data-aos-delay="100">
                     <div class="about-content st-about-content">
                         <div class="content-title style1">
                             <p></p>
@@ -616,6 +872,61 @@
         </div>
     </section>
     <!-- About Section End -->
+
+    <section class="course-heading" id="addmision">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="blog-wrap pt-100 pb-75 st-bg-gredient-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3  col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="section-title style1 text-center mb-40">
+                        <h2 style="font-size: 35px !important;" class="text-white">Admission</h2>
+                        <p style="color: #d2d2d2;">Note:- Admission के लिए TAPSA TEST- 2023 में संलिप्त होना 
+एवं D.E.M.S के लिए 55% एवं B.E.M.S & above के लिए 60% marks 
+Obtained करना आवश्यक है </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="post-meta-option bg-white">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-md-8 col-12">
+                                <div class="post-tag">
+                                    <span><i class="ri-price-tag-3-line"></i></span>
+                                    <ul class="tag-list style2 list-style">
+                                        <li><a href="javascrip: void(0);"><b>Test Fees</b></a>: </li>
+                                        <li><a href="javascrip: void(0);">₹500 /</a>D.E.M.S |</li>
+                                        <li><a href="javascrip: void(0);">₹700 /</a>B.E.M.S and MD</li>
+                                    </ul>
+                                </div>
+                                <div class="post-tag">
+                                    <span><i class="ri-price-tag-3-line"></i></span>
+                                    <ul class="tag-list style2 list-style">
+                                        <li><a href="javascrip: void(0);"><b>Registration Fees</b></a>: </li>
+                                        <li><a href="javascrip: void(0);">₹2000 /</a>D.E.M.S |</li>
+                                        <li><a href="javascrip: void(0);">₹5000 /</a>B.E.M.S and MD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="cta-btn admin d-flex">
+                                    <a href="<?= base_url() ?>assets/test-form/test-form.pdf" download class="w-100 btn style2">Download Test Form</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
     <!-- Footer Section Start -->
     <?php include('includes/footer.php') ?>

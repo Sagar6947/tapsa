@@ -7,43 +7,22 @@
                         <ul class="contact-info list-style">
                             <li>
                                 <span><i class="ri-mail-send-line"></i></span>
-                                <p>Your Trusted Service Provider</p>
+                                <a href="mailto:tapsainstitute@gmail.com">tapsainstitute@gmail.com</a>
                             </li>
                             <li>
                                 <span><i class="ri-phone-fill"></i></span>
                                 <a href="tel:9430099718">9430099718</a>
                             </li>
                             <li>
-                                <span><i class="ri-map-pin-fill"></i></span>
-                                <p>Bhopal</p>
+                                <span><i class="ri-youtube-fill"></i></span>
+                                <a href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" targte="_blank">Youtube</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="header-top-right">
-                        <ul class="social-profile list-style style1">
-                            <li>
-                                <a href="https://facebook.com">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://pinterest.com">
-                                    <i class="ri-pinterest-line"></i>
-                                </a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -53,8 +32,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo-light" src="<?= base_url() ?>assets/img/logo.png" alt="logo" width="100px">
-                    <img class="logo-dark" src="<?= base_url() ?>assets/img/logo.png" alt="logo" width="100px">
+                    <img class="logo-light" src="<?= base_url() ?>assets/img/logo-tapsa.png" alt="logo" width="250px">
+                    <img class="logo-dark" src="<?= base_url() ?>assets/img/logo-tapsa.png" alt="logo" width="250px">
                 </a>
                 <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
                     <div class="menu-close d-lg-none">
@@ -62,50 +41,52 @@
                     </div>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="<?= base_url() ?>" class="nav-link active">
+                            <a href="<?= base_url() ?>" class="nav-link">
                                 Home
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link">
+                            <a href="<?= base_url() ?>#about" class="nav-link">
                                 About
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?= base_url() ?>#services" class="nav-link">
                                 Services
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript: void(0);" class="nav-link">
+                            <a href="<?= base_url() ?>#courses" class="nav-link">
                                 Courses
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                Gallery
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                Contact
-                            </a>
-                        </li>
-
+                        <div class="mobile-links">
+                            <ul class="contact-info list-style">
+                                <li>
+                                    <span><i class="ri-mail-send-line"></i></span>
+                                    <a href="mailto:tapsainstitute@gmail.com">tapsainstitute@gmail.com</a>
+                                </li>
+                                <li>
+                                    <span><i class="ri-phone-fill"></i></span>
+                                    <a href="tel:9430099718">9430099718</a>
+                                </li>
+                                <li>
+                                    <span><i class="ri-youtube-fill"></i></span>
+                                    <a href="https://www.youtube.com/@tapsaclinicinfertilitythyr1551" targte="_blank">Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
                     </ul>
                     <div class="other-options md-none">
                         <div class="option-item">
-                            <a href="appointment.html" class="btn style1">Addmission</a>
+                            <a href="<?= base_url() ?>#addmision" class="btn style1">Admission</a>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div class="search-area">
-                <input type="search" placeholder="Search Here..">
-                <button type="submit"><i class="ri-search-line"></i></button>
-            </div>
+
             <div class="mobile-bar-wrap">
-                <button class="searchbtn d-lg-none"><i class="ri-search-line"></i></button>
+                <!-- <button class="searchbtn d-lg-none"><i class="ri-search-line"></i></button> -->
                 <div class="mobile-menu d-lg-none">
                     <a href="javascript:void(0)"><i class="ri-menu-line"></i></a>
                 </div>
